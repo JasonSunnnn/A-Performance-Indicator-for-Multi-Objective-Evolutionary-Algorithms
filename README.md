@@ -1,4 +1,4 @@
-# This is the code for our published paper: 'Integrating Performance Metrics for Multi-Objective Optimization: A Case Study with MOEAs'
+# This is the code for our paper: 'Integrating Performance Metrics for Multi-Objective Optimization: A Case Study with MOEAs'
 This paper has not been published. In the future, everyone is welcome to use this code and cite our paper.
 
 # Running the code
