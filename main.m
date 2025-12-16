@@ -33,12 +33,13 @@ array2=array1;
 
 %%                                          Model Evaluation
 score=cell(5,9);
-for i=1:9                                   %   闂
-    for ii=1:5                              %   鐩爣
-        for iii=1:10                        %   閲嶅瀹為獙娆℃暟
+for i=1:9                                   
+    for ii=1:5                              
+        for iii=1:10                        
             Homogenous_set=[data_PD_31{ii,i}(:,iii),data_NFS{ii,i}(:,iii),data_HV_96{ii,i}(:,iii),data_GDPlus{ii,i}(:,iii),data_Spacing_39{ii,i}(:,iii)];                    %   鍒涘缓涓?涓寘鍚悓璐ㄥ崟鍏冪殑鏁版嵁缁?
-            a=EvaluationModel(Homogenous_set(:,1:3),Homogenous_set(:,4:4));    %  绠楁晥鐜?
+            a=EvaluationModel(Homogenous_set(:,1:3),Homogenous_set(:,4:5));    
             score{ii,i}(:,iii)=a;
         end
     end
 end
+
